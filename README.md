@@ -2,11 +2,6 @@
 
 > An iterative prompt-engineering project: turning plain-English requests into **safe, correct Windows CMD commands**, and improving the system prompt version by version.
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
-![Groq](https://img.shields.io/badge/LLM-Groq_API-F55036)
-![Gradio](https://img.shields.io/badge/UI-Gradio-FF7C00)
-![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-2DD4BF)
-
 ## 🎯 The challenge
 LLMs are great at writing shell commands, and also great at writing **dangerous**, wrong or Linux-only ones.
 The goal: a system prompt that makes the model return **exactly one valid Windows command**, or refuse safely.
@@ -44,4 +39,4 @@ python app.py
 > 🔗 See also **[WinCmd-Agent](https://github.com/leahlevovitz/WinCmd-Agent)**: the same idea running fully locally with Ollama.
 
 ---
-👩‍💻 Built by **Leah Levovitz** · [LinkedIn](https://www.linkedin.com/in/leahlevovitz) · [GitHub](https://github.com/leahlevovitz)
+👩‍💻 Built by **Leah Levovitz** · [GitHub](https://github.com/leahlevovitz)
